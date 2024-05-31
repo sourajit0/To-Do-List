@@ -126,6 +126,9 @@ const TodoList = () => {
           onChange={(e) => setFilter(e.target.value)}
           className="custom-select"
         >
+          <option value="all" disabled>
+            Filter
+          </option>
           <option value="all">All</option>
           <option value="active">Active</option>
           <option value="completed">Completed</option>
@@ -136,6 +139,9 @@ const TodoList = () => {
           onChange={(e) => setSort(e.target.value)}
           className="custom-select"
         >
+          <option value="default" disabled>
+            Sort By
+          </option>
           <option value="default">Default</option>
           <option value="alphabetical">Alphabetical</option>
         </select>
