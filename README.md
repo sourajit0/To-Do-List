@@ -27,7 +27,6 @@ cd To-Do-List
 3. Start the development server (**comment**):
 
 ```bash
- npm i
  npm start
 ```
 
