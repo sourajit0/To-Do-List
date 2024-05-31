@@ -59,7 +59,5 @@ This component can be tested using a combination of unit testing and manual test
 * Manually create, remove, and mark tasks as complete to verify user interface updates and functionality.
 * Test various scenarios like adding multiple tasks, filtering completed/incomplete tasks, and  sorting and localStorage integration.
 
-## License
 
-This project is licensed under the MIT License.
 
