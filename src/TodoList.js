@@ -46,11 +46,7 @@ const TodoList = () => {
   const addTask = () => {
     if (isValidTask(task)) {
       if (editId !== null) {
-        const updatedTasks = tasks.map((t) =>
-          t.id === editId ? { ...t, text: task, description } : t
-        );
-        setTasks(updatedTasks);
-        setEditId(null);
+        updateTask();
       } else {
         const newTask = {
           id: uuidv4(),
@@ -61,9 +57,9 @@ const TodoList = () => {
         const updatedTasks = [...tasks, newTask];
         setTasks(updatedTasks);
         localStorage.setItem("tasks", JSON.stringify(updatedTasks));
+        setTask("");
+        setDescription("");
       }
-      setTask("");
-      setDescription("");
     }
   };
 
@@ -86,6 +82,17 @@ const TodoList = () => {
     setTask(taskToEdit.text);
     setDescription(taskToEdit.description);
     setEditId(id);
+  };
+
+  const updateTask = () => {
+    const updatedTasks = tasks.map((t) =>
+      t.id === editId ? { ...t, text: task, description } : t
+    );
+    setTasks(updatedTasks);
+    localStorage.setItem("tasks", JSON.stringify(updatedTasks));
+    setTask("");
+    setDescription("");
+    setEditId(null);
   };
 
   const filteredTasks = tasks.filter((task) => {
