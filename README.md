@@ -37,7 +37,7 @@ This will start the development server and open the application in your web brow
 * Add new tasks
 * Mark tasks as completed
 * Delete tasks
-* Persist tasks in local storage (optional)
+* Persist tasks in local storage
 
 ## Contributing
 
