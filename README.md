@@ -2,7 +2,7 @@
 
 This project is a To-Do List application built using React. It allows users to create, manage, and track their tasks.
 
-## (Live Link)[ascent-todo.netlify.app]
+## [Live Link](ascent-todo.netlify.app)
 
 ## Installation
 
