@@ -6,7 +6,7 @@ This project is a To-Do List application built using React. It allows users to c
 
 ## Installation
 
-To install the dependencies for this project, run the following command in your terminal (**comment**):
+To install the dependencies for this project, run the following command in your terminal :
 
  ```bash
  npm install
