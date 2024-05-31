@@ -14,19 +14,19 @@ To install the dependencies for this project, run the following command in your 
 
 ## Usage
 
-1. Clone the repository (**comment**):
+1. Clone the repository :
 
 ```bash
  git clone https://github.com/sourajit0/To-Do-List.git
 ```
 
-2. Navigate to the project directory (**comment**):
+2. Navigate to the project directory :
 
 ```bash
 cd To-Do-List
 ```
 
-3. Start the development server (**comment**):
+3. Start the development server :
 
 ```bash
  npm start
