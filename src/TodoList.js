@@ -58,11 +58,12 @@ const TodoList = () => {
           description,
           completed: false,
         };
-        setTasks([...tasks, newTask]);
+        const updatedTasks = [...tasks, newTask];
+        setTasks(updatedTasks);
+        localStorage.setItem("tasks", JSON.stringify(updatedTasks));
       }
       setTask("");
       setDescription("");
-      localStorage.setItem("tasks", JSON.stringify(tasks));
     }
   };
 
