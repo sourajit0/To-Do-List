@@ -44,6 +44,20 @@ This will start the development server and open the application in your web brow
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
+\section{Testing}
+
+This component can be tested using a combination of unit testing and manual testing:
+
+**Unit Testing:**
+
+* Use a testing library like Jest and React Testing Library to test individual functionalities.
+* Test the `addTask` function to ensure validation for empty tasks and proper state updates.
+* Test the `removeTask` and `markComplete` functions to verify their behavior with different task IDs.
+
+**Manual Testing:**
+
+* Manually create, remove, and mark tasks as complete to verify user interface updates and functionality.
+* Test various scenarios like adding multiple tasks, filtering completed/incomplete tasks, and  sorting and localStorage integration.
 
 ## License
 
