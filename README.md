@@ -44,7 +44,7 @@ This will start the development server and open the application in your web brow
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request.
-\section{Testing}
+## Testing
 
 This component can be tested using a combination of unit testing and manual testing:
 
