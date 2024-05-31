@@ -1,13 +1,3 @@
-\documentclass{article}
-
-\title{To-Do List Application}
-\author{Sourajit0}
-\date{\today}
-
-\begin{document}
-
-\maketitle
-
 ## About
 
 This project is a To-Do List application built using React. It allows users to create, manage, and track their tasks.
@@ -57,4 +47,3 @@ If you would like to contribute to this project, please fork the repository and 
 
 This project is licensed under the MIT License.
 
-\end{document}
